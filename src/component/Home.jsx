@@ -102,25 +102,24 @@ function Home() {
             />
             </div>
 
-            <footer className="flex flex-col lg:flex-row md:flex-row md:items-center md:justify-between lg:items-center lg:justify-between gap-5 p-[48px] ">
-            <img
-              id="profile__img"
-              src={ZuriInternship}
-              alt=""
-              className="w-[185.03px]"
-            />
+            <footer className="m-auto  lg:py-[48px] lg:px-16  md:py-[48px] md:px-16   items-center  h-[196px] gap-[64px]">
+        <div className="  max-w-[1440px] flex flex-col items-start px-[16px]  h-[132px] py-[32px]  lg:flex-row lg:justify-between lg:items-center md:flex-row md:justify-between md:items-center   gap-5  border-t-[1px] border-t-solid border-t-[#EAECF0]">
+          <img id="profile__img" src={ZuriInternship} alt="" className="w-[185.03px]" />
 
-            <h3 className="text-[16px] text-[#667085]">HNG Internship 9 Frontend Task</h3>
+          <h2 className="text-[14px] leading-[20px] font-normal text-[#667085] font-sans">
+            HNG Internship 9 Frontend Task
+          </h2>
 
-            <img
-              id="profile__img"
-              src={Ingressive}
-              alt=""
-              className="w-[132.13px]"
-            />
+          <img
+            id="profile__img"
+            src={Ingressive}
+            alt=""
+            className="w-[132.13px]"
+          />
+        </div>
+      </footer>
+
             
-
-            </footer>
     </div>
   )
 }
